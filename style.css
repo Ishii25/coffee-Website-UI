@@ -1,0 +1,131 @@
+/**custom css**/
+body {
+	font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to left top, #266b66, #548880, #7ea59c, #a7c4ba, #d0e3db);
+}
+
+/* Utilty Classes*/
+.h1{
+    font-family: 'Lobster', cursive;
+    letter-spacing: 5px;
+}
+.img-responsive1 {
+  height: 250px;
+  width: 450px;
+  margin-left: -25px;
+  border-radius: 7px;
+
+  
+}
+.img-responsive2{
+    height: 250px;
+    width: 460px;
+    border-radius: 7px;
+
+}
+.img-responsive3{
+    height: 250px;
+    width: 450px;
+    border-radius: 7px;
+   
+    
+   
+
+}
+.h1{
+    margin-top: -270px;
+}
+
+.hero_image {
+	background: url(https://c1.wallpaperflare.com/preview/404/194/444/coffee-latter-art-coffee-cup-green-cup.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.hero_wrapper {
+	color:white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.hero_wrapper h1 {
+	font-size: 2.4rem;
+	text-align: center;
+}
+
+
+.hero_wrapper span {
+	margin-left: 5rem;
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+
+.form_code {
+	text-align: center;
+}
+
+.form_code .post_code {
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2rem;
+	padding: .6rem;
+	border:none;
+	outline:none;
+}
+
+.form_code button {
+	width: 40%;
+	text-align: center;
+	background-color: #20746f;
+    font-family: 'Montserrat', sans-serif;
+	color: white;
+	padding: .6rem;
+	margin:1rem auto 0rem;
+	border: none;
+	border-radius: .3rem;
+}
+
+
+/*  Product Section */
+
+.product {
+	width: 90%;
+	margin-top: .3rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.product_heading{
+    font-family: 'Lobster', cursive;
+    color: white;
+
+}
+.product__list__item {
+	float: left;
+	width: 32%;
+    
+	
+    
+    
+}
+.p{
+    color: white;
+}
+
+
+.product__list__item:first-of-type {
+	margin-left: 0;
+}
+
+
+@media screen and (max-width: 700px) {
+	.product__list__item { 
+		width: 100%;
+		float: none;
+	}
+}
